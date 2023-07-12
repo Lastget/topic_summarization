@@ -13,7 +13,7 @@ And a webpage that writes about it: https://www.bbc.com/news/technology-63402338
 The app combines that information, feeds it to GPT-4, and comes up with a summary. Save your time from listening to all those videos.
 
 # Running locally 
-1. Clone the repository
+1. Clone the repository <br />  
 ``` git clone https://github.com/Lastget/topic_summarization.git ```
 2. Install dependencies
 - python
@@ -26,8 +26,8 @@ The app combines that information, feeds it to GPT-4, and comes up with a summar
 - tiktoken 
 - regex 
 - pytube 
-- youtube-transcript-api 
+- youtube-transcript-api <br />  
 ``` poetry install ```
 
-3. Run the Streamlit server
+3. Run the Streamlit server <br />  
 ``` streamlit run main.py ```   
